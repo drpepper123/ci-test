@@ -22,4 +22,32 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>2.6</version>
+      </plugin>
+    </plugins>
+  </reporting>
+  
+  <!-- Contributor Information -->
+  <contributors>
+    <contributor>
+      <name>David Gao</name>
+      <email>dave.gao@gmail.com</email>
+      <url>http://5.231.39.114</url>
+      <organization>Aptus Consulting, Inc.</organization>
+      <organizationUrl>http://5.231.39.114</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>-5</timezone>
+      <properties>
+        <gtalk>dave.gao@gmail.com</gtalk>
+      </properties>
+    </contributor>
+  </contributors>
 </project>
